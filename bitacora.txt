@@ -6,3 +6,13 @@
 
  Paso   Acción                       Notas
 ====== ============================ ================================
+ 
+
+
+
+
+ 06.a	log
+ 06.b	checkout a655ef4a1e8312194cffe1d1d2704e1daebae67b .	
+ 07	checkout -b Antecedentes
+ 08	-----
+ 09	add + commit -m "Paso 09"
