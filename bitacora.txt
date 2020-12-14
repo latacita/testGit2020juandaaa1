@@ -1,8 +1,12 @@
 %%==================================================================%%
-%%                 Métodos de Desarrollo - Test de Git              %%
+%%              Métodos de Desarrollo - Test de Git 2020            %%
 %%==================================================================%%
-%% Alumno (Apellidos, Nombre):                                      %%
+%% Alumno (Apellidos, Nombre): Corrales Gil, Juan David             %%
 %%==================================================================%%
 
  Paso   Acción                       Notas
 ====== ============================ ================================
+ 01	clone
+ 02	checkout -b DatosPersonales
+ 03	----
+ 04	----
