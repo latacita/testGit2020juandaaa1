@@ -1,16 +1,16 @@
 %%==================================================================%%
-%%               Métodos de Desarrollo - Test de Git 2020           %%
+%%              Métodos de Desarrollo - Test de Git 2020            %%
 %%==================================================================%%
 %% Alumno (Apellidos, Nombre): Corrales Gil, Juan David             %%
 %%==================================================================%%
 
  Paso   Acción                       Notas
 ====== ============================ ================================
- 
-
-
-
-
+ 01	clone
+ 02	checkout -b DatosPersonales
+ 03	----
+ 04	----
+ 05	add + commit -m "Paso 05"
  06.a	log
  06.b	checkout a655ef4a1e8312194cffe1d1d2704e1daebae67b .	
  07	checkout -b Antecedentes
@@ -18,7 +18,12 @@
  09	add + commit -m "Paso 09"
  10	checkout master
  11	git push origin DatosPersonales
- 12					Fusion Datos Personales: Fast-forward
-					Fusion Antecedentes: Fast-forward
+ 12					Fusión Datos Personales: Fast-forward
+					Fusión Antecedentes: Fast-forward
  13	add + commit -m "Paso 13"
-
+ 14.a	merge Antecedentes --no-ff	Fusión forzada para ser recursiva. Fusión con conflictos.
+					Se resuelven los conflictos, pero se deben de guardar los cambios 					localmente.
+ 14.b	add + commit -m "Paso 14 Conflictos"
+ 15	merge DatosPersonales--no-ff	Fusión forzada para ser recursiva. Fusión con conflictos.
+					Se resuelven los conflictos.
+ 16	add + commit -m "Paso 16"
